@@ -1,0 +1,42 @@
+.sidbar{
+    position: fixed;
+    left: 0;
+    width: 10%;
+    height: 1160px;
+    margin-top: -10px;
+    background-color: #AECCC6;
+}
+
+.teks-hero{
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-top: -15px;
+    right: 10px;   
+}
+a{
+    text-decoration: none;
+}
+#daftar1{
+    color: #373636;
+    font-family: "Raleway",sans-serif;
+    font-size: 15px;
+    margin-top: 140px;
+    text-align: center;
+}
+#daftar2{
+    color: #373636;
+    font-family: "Raleway",sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: center;
+}
+.logo{
+    width: 35px;
+    height: 35px;
+    background:  #ffff;
+    border-radius: 100%;
+    margin-top: -193PX;
+    margin-right: 30px;
+}
