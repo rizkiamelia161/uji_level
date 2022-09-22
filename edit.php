@@ -9,9 +9,10 @@ $kelas = $_POST['kelas'];
 $kode_barang = $_POST['kode_barang']; 
 $tggl_pengembalian = $_POST['tggl_pengembalian'];
 
-$sql = "UPDATE datasiswa SET nama_siswa = '$nama', kelas = '$kelas', kode_barang = '$kode_barang', tggl_pengembalian = '$tggl_pengembalian' WHERE id_siswa = '$id_siswa'";
-
-$query = mysqli_query($connect, $sql);
+$sql = "UPDATE datasiswa SET nama_siswa = '$nama_siswa', kelas = '$kelas', kode_barang = '$kode_barang', tggl_pengembalian = '$tggl_pengembalian' WHERE id_siswa = '$id_siswa'";
+ $query = mysqli_query($connect, $sql);
+// var_dump($query);
+die;
 if($query){
     header('Location: daftarsiswa.php');
 }else{

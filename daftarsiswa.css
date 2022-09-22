@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 
-.sidebar{
+.sidebardaftarsiswa{
     position: fixed;
     left: 0;
     width: 200px;
@@ -13,9 +13,9 @@
     background: #AECCC6;
 }
 .sidebar header{
-    font-size: 30px;
+    font-size: 20px;
     color: #373636;
-    text-align: right;
+    text-align: center;
     line-height: 70px;
     background: #A1C298;
     user-select: none;
@@ -47,6 +47,7 @@ ul li:hover a{
     margin-top: -193PX;
     margin-left: 20px;
 }
+
 .conten {
     position: relative;
     top: 150px;

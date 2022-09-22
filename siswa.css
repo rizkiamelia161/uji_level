@@ -9,8 +9,9 @@
     position: fixed;
     left: 0;
     width: 200px;
-    height: 100%;
+    height: 1110px;
     background: #AECCC6;
+    margin-top: -200px;
 }
 .sidebar header{
     font-size: 30px;
@@ -47,55 +48,49 @@ ul li:hover a{
     margin-top: -193PX;
     margin-left: 20px;
 }
-.conten {
+.content{
     position: relative;
-    top: 150px;
-    margin-left: 400px;
-}
-.conten table{
-    border-collapse: collapse;
-    font-size: 12pt;
-    border: 1px solid #cccccc;
-}
-td{
-    padding: 3px;
-    height: 25px;
-}
-th{
-    background-color: #A1C298;
-    color: white;
-    height: 30px;
+    top: -60px;
+    left: 200px;
 }
 h3{
     font-weight: 600;
-    color: #A1C298;
+    color: #A1C298; 
 }
-.btn-delete{
-    border: 1px solid #db5d59;
-    height: 22px;
-    padding-left: 15px;
-    padding-top: 5px;
+form label input{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: aqua;
+    padding: 5px;
+    margin-top: -10px;
 }
-
-table tr td:first-child img{
-    width: 30px;
-    height: 20px;
-    background-color: #db5d59;
-} 
-.btn-edit{
-    border: 1px solid #1363DF;
-    height: 22px;
-    padding-left: 15px;
-    padding-top: 5px;
-}
-table tr td:last-child #edit img{
-    width: 30px;
-    height: 20px;
-    background-color: #1363DF;
+form{
+    height: 200px;
+    width: 1000px;
+    margin-left: 300px;
+    margin-top: 200px;
 }
 
-table tr td:last-child #delete img{
-    width: 30px;
-    height: 20px;
-    background-color: #df8713;
+form input{
+    width: 800px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    float: right;
+
 }
+
+input{
+    margin: 0px;
+    width: 100px;
+    margin-right: 100px;
+}
+
+/* input {
+    width: 10x;
+    float: right;
+}
+
+p label input{
+    margin-bottom: ;
+} */

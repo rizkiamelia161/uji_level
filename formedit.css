@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebarformedit{
+    position: fixed;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background: #AECCC6;
+}
+.sidebar header{
+    font-size: 20px;
+    color: #373636;
+    text-align: right;
+    line-height: 70px;
+    background: #A1C298;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 15px;
+    color: #373636;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(16, 15, 15, 0.1);
+    border-bottom: 1px solid #858585;
+    transition: .4s;
+}
+ul li:hover a{
+    padding-left: 50px;
+}
+.sidebar ul a i{
+    margin-right: 16px;
+}
+.conten{
+    position: relative;
+    top: 150px;
+    margin-left: 400px;
+}
+h3{
+    font-weight: 600;
+    color: #A1C298; 
+}
+form label input{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: aqua;
+    padding: 5px;
+    margin-top: -10px;
+}
+form{
+    height: 200px;
+    width: 1000px;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+form input{
+    width: 800px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    float: right;
+
+}
+input{
+    margin: 0px;
+    width: 100px;
+    margin-right: 100px;
+}

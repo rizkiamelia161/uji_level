@@ -47,55 +47,46 @@ ul li:hover a{
     margin-top: -193PX;
     margin-left: 20px;
 }
-.conten {
+.content{
     position: relative;
     top: 150px;
     margin-left: 400px;
 }
-.conten table{
-    border-collapse: collapse;
-    font-size: 12pt;
-    border: 1px solid #cccccc;
-}
-td{
-    padding: 3px;
-    height: 25px;
-}
-th{
-    background-color: #A1C298;
-    color: white;
-    height: 30px;
-}
 h3{
     font-weight: 600;
-    color: #A1C298;
+    color: #A1C298; 
 }
-.btn-delete{
-    border: 1px solid #db5d59;
-    height: 22px;
-    padding-left: 15px;
-    padding-top: 5px;
+form label input{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: aqua;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+form{
+    height: 200px;
+    width: 900px;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+form input{
+    width: 600px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    float: right;
+}
+input{
+    margin: 0px;
+    width: 100px;
+    margin-right: 100px;
 }
 
-table tr td:first-child img{
-    width: 30px;
-    height: 20px;
-    background-color: #db5d59;
-} 
-.btn-edit{
-    border: 1px solid #1363DF;
-    height: 22px;
-    padding-left: 15px;
-    padding-top: 5px;
-}
-table tr td:last-child #edit img{
-    width: 30px;
-    height: 20px;
-    background-color: #1363DF;
+/* input {
+    width: 10x;
+    float: right;
 }
 
-table tr td:last-child #delete img{
-    width: 30px;
-    height: 20px;
-    background-color: #df8713;
-}
+p label input{
+    margin-bottom: ;
+} */
